@@ -10,7 +10,7 @@ class FenetrePrincipale(QMainWindow):
         disposition = QVBoxLayout()
         widget_central.setLayout(disposition)
         self.setCentralWidget(widget_central)
-
+        self.setWindowTitle('MegaFiltres 2024')
         self.barre_simple = QProgressBar()
         disposition.addWidget(self.barre_simple)
 
